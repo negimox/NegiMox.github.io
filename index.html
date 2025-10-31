@@ -1,28 +1,103 @@
-<!DOCTYPE html>
-<html>
-  <head>
-        <title>Whoogle</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
-        <link rel="stylesheet" href="style.css">
-  </head>
 
-  <body>
-
-      <ul class="navbar">
-          <li><a href="image.html">Google Image</a></li>
-          <li><a href="advanced.html">Google Advanced Search</a></li>
-      </ul>
-
-      <div>
-          <h1>Whoogle</h1>
-          <center>
-              <form action="https://www.google.com/search?q=">
-                  <input type="text" name="q" class="searchbar">
-                  <input type="submit" value="Google Search" class="searchbutton">
-                  <input type="submit" name="btnI" value="I'm Feeling Lucky" class="searchbutton">
-              </form>
-          </center>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chetan Pandey — Research</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Chetan Pandey — aspiring ML researcher. Projects, experience, skills and contact.">
+</head>
+<body>
+  <div class="wrap">
+    <aside class="sidebar">
+      <div class="name">Chetan Pandey</div>
+      <div class="tag">B.Tech CSE · Aspiring ML researcher</div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research & Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#awards">Awards</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="social">
+        <a href="https://github.com/negimox" target="_blank">GitHub</a>
+        <a href="https://artstation.com/negimox" target="_blank">ArtStation</a>
+        <a href="https://www.youtube.com/channel/UCj-AHudZ7n-6sM71ewje7Ig" target="_blank">YouTube</a>
       </div>
+    </aside>
 
-  </body>
+    <main class="content">
+      <section id="about" class="section">
+        <h1>About</h1>
+        <p>I am an undergraduate in Computer Science at Tula's Institute (B.Tech, 2023–2027). My work focuses on applied machine learning, generative models, and building reproducible pipelines that bridge prototyping and production. I enjoy experimenting with model architectures, inference deployments, and data-driven evaluation.</p>
+        <p class="muted">Location: Dehradun, India · CGPA: 6.28</p>
+      </section>
+
+      <section id="research" class="section">
+        <h2>Research & Selected Projects</h2>
+
+        <article class="project">
+          <h3>Generative Model Integration — Vinci (Internship)</h3>
+          <p>Integrated diffusion and transformer models into an inference service using ComfyUI and FastAPI. Implemented request batching, routing, lightweight post-processing and evaluation pipelines to maintain model quality in production-like settings.</p>
+          <p class="meta">Feb 2025 – Aug 2025 · backend, model deployment</p>
+        </article>
+
+        <article class="project">
+          <h3>Dashboard & Data Pipeline — UTKARSH 1.0 (Hackathon)</h3>
+          <p>Built ETL pipelines and interactive visualizations for exploratory analysis. Awarded 3rd place in Dashboard category.</p>
+          <p class="meta">May 2025</p>
+        </article>
+
+        <article class="project">
+          <h3>EEG / Signal Classification</h3>
+          <p>Designed preprocessing, feature engineering and ML classification pipelines for EEG-like time series data. Evaluated using cross-validation and ROC/PR metrics.</p>
+          <p class="meta">Course / Personal project</p>
+        </article>
+
+        <p class="more">Full project list & code: <a href="https://github.com/negimox" target="_blank">github.com/negimox</a></p>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="cols">
+          <div>
+            <h4>Programming</h4>
+            <p>Python, C/C++, JavaScript, SQL</p>
+          </div>
+          <div>
+            <h4>ML & Data</h4>
+            <p>PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, OpenCV</p>
+          </div>
+          <div>
+            <h4>Deployment & Tools</h4>
+            <p>FastAPI, Docker, Git, Jupyter, Hugging Face, ComfyUI</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="awards" class="section">
+        <h2>Awards & Certifications</h2>
+        <ul>
+          <li>3rd Place — UTKARSH 1.0 Hackathon (Dashboard), May 2025</li>
+          <li>3rd Place — "Innovate OR Evaporate" Hackathon, Mar 2024</li>
+          <li>AWS Certified Cloud Practitioner (Apr 2025)</li>
+          <li>CS50AI — Harvard (Sep 2021)</li>
+        </ul>
+      </section>
+
+      <section id="resume" class="section">
+        <h2>Resume</h2>
+        <p><a class="btn" href="Chetan_Pandey_Research_Resume.docx" download>Download Resume (DOCX)</a> · <em>PDF available on request</em></p>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:bucky.pandey@gmail.com">bucky.pandey@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/negimox" target="_blank">github.com/negimox</a></p>
+      </section>
+    </main>
+  </div>
+</body>
 </html>
